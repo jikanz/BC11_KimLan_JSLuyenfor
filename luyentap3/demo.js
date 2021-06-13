@@ -17,9 +17,9 @@ document
 document
   .getElementById("inTongSoChia3For")
   .addEventListener("click", function () {
-    var n = document.getElementById("txtSoNguyen").value * 1;
+    var number = document.getElementById("txtSoNguyen").value * 1;
     var tong = 0;
-    for (var i = 0; i <= n; i++) {
+    for (var i = 0; i <= number; i++) {
       if (i % 3 == 0) {
         tong += i / 3;
       }

@@ -1,9 +1,9 @@
 document.getElementById("dapAn").addEventListener("click", function (event) {
   event.preventDefault();
-  var n = document.getElementById("txtSoNguyen2").value * 1;
-  var sum = 1;
-  for (i = 1; i <= n; i++) {
-    sum = i * sum;
+  var number = document.getElementById("txtSoNguyen2").value * 1;
+  var tong = 1;
+  for (i = 1; i <= number; i++) {
+    tong *= i;
   }
-  document.getElementById("footerCard").innerHTML = sum;
+  document.getElementById("footerCard").innerHTML = tong;
 });

@@ -1,10 +1,10 @@
 document.getElementById("dapAn").addEventListener("click", function (event) {
   event.preventDefault();
-  var n = document.getElementById("txtSoNguyen").value * 1;
+  var number = document.getElementById("txtSoNguyen").value * 1;
   var demSo = " ";
   var soCanTim = "";
   var tong = 0;
-  for (var i = 1; i <= n; i++) {
+  for (var i = 1; i <= number; i++) {
     demSo += i + " ";
     tong += i;
     if (tong > 10000) {
